@@ -1,0 +1,34 @@
+{
+  "id": "766790d1-8e29-4d25-90a0-e956c8b9c34c",
+  "name": "invisible-systems-msbc-extension-app",
+  "publisher": "Cloudify Aps",
+  "version": "1.0.0.10",
+  "brief": "Clouidfy offers real time customer data updates. Triggers webhooks when customer field changes occur, automatically sending updated customer data to configured webhook URLs for real-time integration.",
+  "description": "Clouidfy offers real time customer data updates. Triggers webhooks when customer field changes occur, automatically sending updated customer data to configured webhook URLs for real-time integration.",
+  "privacyStatement": "https://www.cloudify.biz/privacy-policy",
+  "EULA": "https://www.cloudify.biz/terms-and-conditions",
+  "help": "https://www.cloudify.biz/contact",
+  "url": "https://develop-branch--stripe-msbc.netlify.app/setupguide",
+  "logo": "./logo/extension-app-logo.png",
+  "contextSensitiveHelpUrl": "https://www.cloudify.biz/contact",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "27.0.0.0",
+  "application": "27.3.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 99999
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "15.2",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile"
+  ]
+}
