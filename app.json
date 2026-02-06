@@ -13,8 +13,8 @@
   "contextSensitiveHelpUrl": "https://www.cloudify.biz/contact",
   "dependencies": [],
   "screenshots": [],
-  "platform": "27.0.0.0",
-  "application": "27.3.0.0",
+  "platform": "1.0.0.0",
+  "application": "22.0.0.0",
   "idRanges": [
     {
       "from": 50000,
@@ -26,9 +26,6 @@
     "allowDownloadingSource": true,
     "includeSourceInSymbolFile": true
   },
-  "runtime": "15.2",
-  "features": [
-    "NoImplicitWith",
-    "TranslationFile"
-  ]
+  "runtime": "11.0",
+  "features": ["NoImplicitWith", "TranslationFile"]
 }
